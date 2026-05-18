@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bean-charcoal: #1A1A1A;
+  --color-roast-red: #E63946;
+  --color-crema-white: #FFF5F0;
+  --color-canvas-white: #FAFAFA;
+  --color-primary: #b7102a;
+  --color-primary-container: #db313f;
+  --color-surface-container: #eeeeee;
+  --color-surface-container-low: #f3f3f3;
+  --color-surface-container-high: #e8e8e8;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e2e2e2;
+  --color-outline-variant: #e4bebc;
+  --color-secondary: #635d59;
+  --color-tertiary: #5d5c5b;
+
+  --font-display-lg: "Bebas Neue", sans-serif;
+  --font-display-lg-mobile: "Bebas Neue", sans-serif;
+  --font-headline-md: "Playfair Display", serif;
+  --font-headline-sm: "DM Sans", sans-serif;
+  --font-body-lg: "DM Sans", sans-serif;
+  --font-body-md: "DM Sans", sans-serif;
+  --font-label-caps: "DM Sans", sans-serif;
+
+  --spacing-stack-sm: 12px;
+  --spacing-stack-md: 24px;
+  --spacing-stack-lg: 48px;
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 16px;
+  --spacing-margin-desktop: 48px;
+  --spacing-container-max: 1200px;
+  --spacing-base: 8px;
+
+  --shadow-soft: 0px 10px 30px rgba(26, 26, 26, 0.05);
+  --shadow-hover: 0px 20px 40px rgba(26, 26, 26, 0.08);
+
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas-white text-bean-charcoal antialiased selection:bg-roast-red selection:text-white scroll-smooth;
+  }
+}
+
