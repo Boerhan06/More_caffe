@@ -1,8 +1,5 @@
 # ☕ MORE COFFEE - Premium Coffee & Roasters
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="MORE COFFEE Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
-  
   <p align="center">
     <strong>A Premium, Dynamic, and High-Performance Web Application for Specialty Coffee Roasters.</strong>
   </p>
